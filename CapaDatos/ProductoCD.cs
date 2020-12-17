@@ -13,7 +13,7 @@ using System.Data;
 //Importar la libreria para SQLSERVER
 using System.Data.SqlClient;
 
-namespace CapaDatos
+namespace CapaDatos   
 {
     public class ProductoCD
     {
