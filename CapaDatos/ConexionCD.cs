@@ -17,11 +17,12 @@ namespace CapaDatos
             //Instanciar la clase ConnectionStringBuilder
             SqlConnectionStringBuilder generadorCadena = new SqlConnectionStringBuilder();
             //Asignar los valores de la cadena
-            generadorCadena.DataSource = "127.0.0.1"; //servidor
-            generadorCadena.InitialCatalog = "BDMARKET402"; //base de datos
-            //generadorCadena.IntegratedSecurity = true; //Activar autenticación Windows
-            generadorCadena.UserID = "sa"; //usuario
-            generadorCadena.Password = "123456"; //contraseña
+            //generadorCadena.DataSource = "127.0.0.1"; //servidor
+            generadorCadena.DataSource = @"DESKTOP-BKHUJQ5\SQLEXPRESS";
+            generadorCadena.InitialCatalog = "BDMARKET"; //base de datos
+            generadorCadena.IntegratedSecurity = true; //Activar autenticación Windows
+            //generadorCadena.UserID = "sa"; //usuario
+            //generadorCadena.Password = "123456"; //contraseña
 
             //Recoger la cadena de conexion
             string cadenaConexion = generadorCadena.ConnectionString;

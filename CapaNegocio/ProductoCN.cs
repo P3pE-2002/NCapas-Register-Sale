@@ -7,7 +7,7 @@ using CapaEntidad;
 using CapaDatos;
 namespace CapaNegocio
 {
-    class ProductoCN
+    public class ProductoCN
     {
         // Metodos equivalentes a la capa DATOS
 
